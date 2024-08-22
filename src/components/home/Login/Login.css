@@ -1,0 +1,76 @@
+.CutHalf{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+.ColorPart{
+    background: rgb(2, 143, 199);
+    height: 100vh;
+}
+.LogIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.RegisterText>h1{
+    font-size: 30px;
+}
+.RegisterText>p{
+    font-size: 12px;
+    color: rgb(95, 95, 95);
+}
+.LoginInputs>input{
+
+  border: 2px solid gray;
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+.LoginInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.LoginInputs>input:focus{
+    border-color: rgb(2, 143, 199); 
+            outline: none; 
+}
+.LoginInputs>input::placeholder {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.LoginInputs>input:hover{
+    border-color: rgb(2, 143, 199); 
+            
+}
+
+.chekbox{
+    display: flex;
+    width: 420px;
+    text-align: start;
+    gap: 5px;
+    color: rgb(95, 95, 95);
+    margin: 20px 0px;
+}
+.chekbox>input{
+    width: 30px;
+    
+}
+.Royxatdan_Otish_Tugmasi>button{
+    background-color:rgb(2, 143, 199) ;
+    color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+
+.linktxt{
+    color: rgb(2, 143, 199);
+}
