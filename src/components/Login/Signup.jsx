@@ -19,7 +19,7 @@ const Sigin = () => {
             <div className='Royxatdan_Otish_Tugmasi'><button>Kirish</button></div>
             <div className='Allaqchon_royxatdan_otkan'>
                 <p>Akkaount mavjud emas?</p>
-                <Link to={"/Login"}>
+                <Link to={"/"}>
                 <p className='linktxt'>Ro'yxatdan o'tish</p>
                 </Link>
             </div>
